@@ -21,7 +21,7 @@ public class SimpleSearchTest {
 
        driver.findElement(By.id("search")).sendKeys("vase" + Keys.ENTER);
 
-        driver.findElement(By.linkText("Add to Wishlist"));
+
     }
 
 }
